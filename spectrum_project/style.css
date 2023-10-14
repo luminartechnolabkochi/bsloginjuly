@@ -1,0 +1,66 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Roboto&family=Rowdies:wght@300&display=swap');
+
+*{
+    margin: 0;
+}
+
+.main-head{
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Dela Gothic One', cursive;
+
+    font-family: 'Roboto', sans-serif;
+
+    font-family: 'Rowdies', cursive;
+}
+
+.row{
+    margin-top: 30px;
+    width: 50%;
+    height: 200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+.col{
+    width: 18%;
+    height: 200px;
+    float: left;
+    margin-left: 10px;
+}
+
+.row .col:nth-child(1){
+    background-color:#2A9D8F;
+}
+.row .col:nth-child(2){
+    background-color: #264653;
+}
+
+.row .col:nth-child(3){
+    background-color: #E9C46A;
+}
+.row .col:nth-child(4){
+    background-color: #F4A261;
+}
+.row .col:nth-child(5){
+    background-color: #E76F51;
+}
+
+.row-one{
+    margin-top: 20px;
+    width: 70%;
+    height: 200px;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.col1{
+    float: left;
+    width: (100%/7);
+    height: 200px;
+    border: 1px solid red;
+}
